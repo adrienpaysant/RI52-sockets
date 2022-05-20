@@ -17,7 +17,7 @@ void sigint_handler(int sig){
 
 #define BUFFER_SIZE 500
 #define SERVER_PORT 5555
-#define MAX_CLIENTS 1
+#define MAX_CLIENTS 5
 
 int main(int argc, char *argv[]) {
   struct sigaction my_sigint_action={
